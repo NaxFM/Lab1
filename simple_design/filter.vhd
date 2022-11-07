@@ -176,7 +176,7 @@ begin
       enable => vin,
       n_rst => n_rst,
       clk => clk,
-      dout => dout,
+      dout => dout
     );
 	
 end architecture;

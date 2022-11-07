@@ -10,7 +10,7 @@ entity filter is
         rst_n : in std_logic;
         clk : in std_logic;
         dout : out signed(sample_bits-1 downto 0);
-        vout : out std_logic;
+        vout : out std_logic
     );
     
 end entity;
@@ -57,8 +57,8 @@ begin
       enable => vin,
       n_rst => n_rst,
       clk => clk,
-      reg_out => reg_out(0);
-      add_out => add_out(0);
+      reg_out => reg_out(0),
+      add_out => add_out(0)
     );
 
     filter_block_1 : filter_block port map (

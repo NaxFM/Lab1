@@ -7,25 +7,148 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/mistr/OneDrive/Politecnico/integrated_systems_architecture/Lab1/simple_design
+Z0 dC:/Users/mistr/OneDrive/Politecnico/integrated_systems_architecture/git_lab1/Lab1/simple_design
+Efilter
+Z1 w1667850119
+Z2 DPx4 work 5 types 0 22 ?SU_TzW`^jOR`T@FScedo3
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z6 8./src/filter.vhd
+Z7 F./src/filter.vhd
+l0
+L6
+V8dchYPdCKCe?1T=M3C8aH1
+!s100 4Y1U>=1M[UUYUD1`Ko?F;2
+Z8 OL;C;10.7c;67
+32
+Z9 !s110 1667850209
+!i10b 1
+Z10 !s108 1667850209.000000
+Z11 !s90 -f|compile.f|
+!s107 ./tb/tb.vhd|./src/filter.vhd|./src/filter_block.vhd|./src/reg.vhd|./src/types.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+R5
+DEx4 work 6 filter 0 22 8dchYPdCKCe?1T=M3C8aH1
+l49
+L19
+VZiF_W1[Q;G6HHI1_Z]_<i2
+!s100 FnSihBDMBX`E@`7YY@SV]1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+Z13 !s107 ./tb/tb.vhd|./src/filter.vhd|./src/filter_block.vhd|./src/reg.vhd|./src/types.vhd|
+!i113 0
+R12
+Efilter_block
+Z14 w1667849805
+R2
+R3
+R4
+R5
+R0
+Z15 8./src/filter_block.vhd
+Z16 F./src/filter_block.vhd
+l0
+L7
+VLL9ckM6oT<z8dzk;:Y?U;0
+!s100 ;`MhL=UK8DbU>zJIlj0zJ0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R13
+!i113 0
+R12
+Aarch
+R2
+R3
+R4
+R5
+DEx4 work 12 filter_block 0 22 LL9ckM6oT<z8dzk;:Y?U;0
+l34
+L20
+VHML_zQKn=fWn?fG22nHaT3
+!s100 `P9UOh_cJeFIo^nAVYlbH1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R13
+!i113 0
+R12
+Ereg
+Z17 w1667848579
+R2
+R3
+R4
+R5
+R0
+Z18 8./src/reg.vhd
+Z19 F./src/reg.vhd
+l0
+L6
+V4YIk2N2RH0GRmKkR2Am[@2
+!s100 zez2EGnLnFO>5c41hoBnL0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R13
+!i113 0
+R12
+Aregister_arch
+R2
+R3
+R4
+R5
+DEx4 work 3 reg 0 22 4YIk2N2RH0GRmKkR2Am[@2
+l18
+L16
+VG=<ziQUm0`00QI9aaUkX92
+!s100 ]_:F05c4jFgBmfYN0U5J40
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R13
+!i113 0
+R12
 Ptypes
-DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-w1667764782
+R3
+R4
+R5
+w1667849635
 R0
 8./src/types.vhd
 F./src/types.vhd
 l0
 L5
-V[lcl@n3X1FW]X]<5kMI2I0
-!s100 lih6El7=mjVZU3Lc3B7fH2
-OL;C;10.7c;67
+V?SU_TzW`^jOR`T@FScedo3
+!s100 A9WmaF;5lKJ_D6NYZLj:30
+R8
 32
-!s110 1667847790
+R9
 !i10b 1
-!s108 1667847790.000000
-!s90 -f|compile.f|
-!s107 ./src/filter.vhd|./src/filter_block.vhd|./src/register.vhd|./src/types.vhd|
+R10
+R11
+R13
 !i113 0
-tExplicit 1 CvgOpt 0
+R12

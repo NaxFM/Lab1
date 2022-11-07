@@ -1,5 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 use work.types.all;
 
 entity reg is
@@ -12,7 +13,7 @@ port (
  );
 end entity;
 
-architecture register_arch of register is 
+architecture register_arch of reg is 
 
 begin
     process(clk, n_rst) begin

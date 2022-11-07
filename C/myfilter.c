@@ -5,7 +5,7 @@
 #define NT (N+1) /// number of coeffs
 #define NB 8 /// number of bits
 
-const int bi[NT]={-1,-7,-13,32,140,203,140,32,-13,-7-1}; /// b array
+const int bi[NT]={0,1,6,15,25,30,25,15,6,1,0}; /// b array
 
 /// Perform fixed point filtering assming direct form I
 ///\param x is the new input sample
@@ -35,7 +35,7 @@ int myfilter(int x)
   /// Moving average part
   y = 0;
   for (i=0; i<NT; i++)
-    y += ((sx[i]*bi[i]) >> (NB+1)); //shift right to limit number of bits to 8
+    y += ((sx[i]*bi[i]) >> (NB)); //shift right to limit number of bits 
  
   return y;
 }

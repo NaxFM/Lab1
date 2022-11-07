@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use work.types.all;
 
-entity register is
+entity reg is
 port ( 
     din : in  signed(sample_bits-1 downto 0);
     enable : in std_logic;
@@ -16,7 +16,7 @@ architecture register_arch of register is
 
 begin
     process(clk, n_rst) begin
-        if (n_rst = '1') then
+        if (n_rst = '0') then
             dout<=(others=>'0');
         elsif rising_edge(clk) then
             if(enable = '1') then   

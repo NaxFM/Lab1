@@ -1,0 +1,20 @@
+# do sim.do
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:03:10 on Nov 07,2022
+# vcom -f compile.f 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package types
+# -- Loading package types
+# ** Error: ./src/register.vhd(5): near "register": (vcom-1576) expecting IDENTIFIER.
+# ** Error (suppressible): ./src/filter.vhd(1): (vcom-1491) Empty source files.
+# End time: 20:03:10 on Nov 07,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vcom failed.
+# Error in macro ./sim.do line 3
+# C:/questasim64_10.7c/win64/vcom failed.
+#     while executing
+# "vcom -f compile.f"
+# invalid command name "quiit"

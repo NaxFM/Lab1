@@ -45,6 +45,9 @@ signal reg_out: sample_bits_array;
 signal add_out: sample_bits_array;
 signal zero_signed : signed(sample_bits-1 downto 0);
 
+signal buffer_register_out : signed(sample_bits-1 downto 0);
+signal mult_out: signed(sample_bits-1 downto 0);
+
 
 begin
 
@@ -91,8 +94,8 @@ begin
       enable => vin,
       n_rst => rst_n,
       clk => clk,
-      reg_out => reg_out(4),
-      add_out => add_out(4)
+      reg_out => reg_out(3),
+      add_out => add_out(3)
     );
 
     filter_block_4 : filter_block port map (

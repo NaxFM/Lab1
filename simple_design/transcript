@@ -1,327 +1,23 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
 # do sim.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is mistr@PC-FRANCESCO.
+# ** Warning: (vlib-34) Library already exists at "work".
 # QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:13:17 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# ** Error: ./src/register.vhd(5): near "register": (vcom-1576) expecting IDENTIFIER.
-# ** Note: ./src/filter_block.vhd(1): VHDL Compiler exiting
-# End time: 20:13:18 on Nov 07,2022, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# invalid command name "-do"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:14:05 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# ** Error: ./src/register.vhd(5): near "register": (vcom-1576) expecting IDENTIFIER.
-# ** Note: ./src/filter_block.vhd(1): VHDL Compiler exiting
-# End time: 20:14:05 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:14:20 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# ** Error: ./src/register.vhd(5): near "register": (vcom-1576) expecting IDENTIFIER.
-# ** Note: ./src/filter_block.vhd(1): VHDL Compiler exiting
-# End time: 20:14:20 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:14:23 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# ** Error: ./src/register.vhd(5): near "register": (vcom-1576) expecting IDENTIFIER.
-# ** Note: ./src/filter_block.vhd(1): VHDL Compiler exiting
-# End time: 20:14:24 on Nov 07,2022, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:14:34 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# ** Error: (vcom-7) Failed to open design unit file "./src/reg.vhd" in read mode.
-# No such file or directory. (errno = ENOENT)
-# ** Note: ./src/filter_block.vhd(1): VHDL Compiler exiting
-# End time: 20:14:34 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:15:43 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# ** Error: ./src/reg.vhd(7): (vcom-1136) Unknown identifier "signed".
-# ** Error: ./src/reg.vhd(11): (vcom-1136) Unknown identifier "signed".
-# ** Note: ./src/reg.vhd(13): VHDL Compiler exiting
-# End time: 20:15:43 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:16:02 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# ** Error: ./src/reg.vhd(3): near ":": (vcom-1576) expecting '[' or '.' or '(' or '\''.
-# ** Note: ./src/filter_block.vhd(1): VHDL Compiler exiting
-# End time: 20:16:02 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:16:12 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# ** Error: ./src/reg.vhd(16): near "register": (vcom-1576) expecting IDENTIFIER.
-# ** Note: ./src/filter_block.vhd(1): VHDL Compiler exiting
-# End time: 20:16:12 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:16:22 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# ** Error: ./src/filter_block.vhd(8): (vcom-1136) Unknown identifier "signed".
-# ** Error: ./src/filter_block.vhd(9): (vcom-1136) Unknown identifier "signed".
-# ** Error: ./src/filter_block.vhd(10): (vcom-1136) Unknown identifier "signed".
-# ** Error: ./src/filter_block.vhd(14): (vcom-1136) Unknown identifier "signed".
-# ** Error: ./src/filter_block.vhd(15): (vcom-1136) Unknown identifier "signed".
-# ** Note: ./src/filter_block.vhd(17): VHDL Compiler exiting
-# End time: 20:16:22 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:16:40 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# ** Error: ./src/filter_block.vhd(31): (vcom-1294) Declaration with designator "reg_out" already exists in this region.
-# ** =====> Prior declaration of "reg_out" is at ./src/filter_block.vhd(15).
-# ** Error: ./src/filter_block.vhd(33): (vcom-1294) Declaration with designator "add_out" already exists in this region.
-# ** =====> Prior declaration of "add_out" is at ./src/filter_block.vhd(16).
-# ** Error (suppressible): ./src/filter_block.vhd(37): (vcom-1272) Length of expected is 8; length of actual is 16.
-# ** Note: ./src/filter_block.vhd(40): VHDL Compiler exiting
-# End time: 20:16:40 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:17:34 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# ** Error: ./src/filter_block.vhd(37): Cannot read output "reg_out".
-# 	VHDL 2008 allows reading outputs.
-# 	This facility is enabled by compiling with -2008.
-# ** Error (suppressible): ./src/filter_block.vhd(37): (vcom-1272) Length of expected is 8; length of actual is 16.
-# ** Note: ./src/filter_block.vhd(40): VHDL Compiler exiting
-# End time: 20:17:34 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:19:21 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# ** Error: ./src/filter_block.vhd(36): (vcom-1136) Unknown identifier "register_output".
-# ** Error: ./src/filter_block.vhd(37): (vcom-1136) Unknown identifier "register_output".
-# ** Error: ./src/filter_block.vhd(38): near "mult_out": (vcom-1576) expecting ';'.
-# ** Note: ./src/filter_block.vhd(41): VHDL Compiler exiting
-# End time: 20:19:21 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:19:28 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# ** Error: ./src/filter_block.vhd(38): near "mult_out": (vcom-1576) expecting ';'.
-# ** Note: ./src/filter_block.vhd(41): VHDL Compiler exiting
-# End time: 20:19:28 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:19:36 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# ** Error (suppressible): ./src/filter_block.vhd(38): (vcom-1272) Length of expected is 8; length of actual is 16.
-# ** Note: ./src/filter_block.vhd(41): VHDL Compiler exiting
-# End time: 20:19:36 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:21:19 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# ** Error: ./src/filter.vhd(7): (vcom-1136) Unknown identifier "sample_bits".
-# ** Error: ./src/types.vhd(7): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: ./src/filter.vhd(7): Type error in range expression.
-# ** Error: ./src/filter.vhd(8): (vcom-1136) Unknown identifier "coeff_array".
-# ** Error: ./src/filter.vhd(12): (vcom-1136) Unknown identifier "sample_bits".
-# ** Error: ./src/types.vhd(12): (vcom-1591) Bad expression in left bound of range expression.
-# ** Error: ./src/filter.vhd(12): Type error in range expression.
-# ** Note: ./src/filter.vhd(16): VHDL Compiler exiting
-# End time: 20:21:19 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 7, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:22:02 on Nov 07,2022
-# vcom -f compile.f 
+# Start time: 14:47:22 on Nov 19,2022
+# vcom -reportprogress 300 -f compile.f 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -334,292 +30,310 @@
 # -- Compiling architecture arch of filter_block
 # -- Compiling entity filter
 # -- Compiling architecture arch of filter
-# ** Error: ./src/filter.vhd(51): Integer literal 0 is not of type ieee.NUMERIC_STD.SIGNED.
-# ** Error: ./src/filter.vhd(59): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(70): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(81): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(92): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(103): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(114): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(125): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(136): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(147): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(158): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(169): (vcom-1136) Unknown identifier "n_rst".
-# ** Error: ./src/filter.vhd(178): (vcom-1136) Unknown identifier "n_rst".
-# ** Note: ./src/filter.vhd(183): VHDL Compiler exiting
-# End time: 20:22:02 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 13, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:24:20 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# ** Error: ./src/filter.vhd(51): Integer literal 0 is not of type ieee.NUMERIC_STD.SIGNED.
-# ** Note: ./src/filter.vhd(183): VHDL Compiler exiting
-# End time: 20:24:20 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:25:29 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# ** Error: ./src/filter.vhd(51): (vcom-1600) No feasible entries for subprogram "TO_SIGNED".
-#    Visible subprograms are:
-#       (explicit) NUMERIC_STD.TO_SIGNED[INTEGER, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1472)
-# ** Note: ./src/filter.vhd(183): VHDL Compiler exiting
-# End time: 20:25:29 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:26:23 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# End time: 20:26:23 on Nov 07,2022, Elapsed time: 0:00:00
+# -- Compiling entity tb
+# -- Compiling architecture testbench of tb
+# End time: 14:47:22 on Nov 19,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:34:00 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# ** Error (suppressible): ./src/filter_block.vhd(39): (vcom-1272) Length of expected is 7; length of actual is 8.
-# ** Note: ./src/filter_block.vhd(41): VHDL Compiler exiting
-# End time: 20:34:00 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:35:48 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# ** Error (suppressible): ./src/filter.vhd(57): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(68): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(79): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(90): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(101): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(112): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(123): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(134): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(145): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(156): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(167): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Note: ./src/filter.vhd(183): VHDL Compiler exiting
-# End time: 20:35:48 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:36:49 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# ** Error (suppressible): ./src/filter.vhd(57): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(68): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(79): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(90): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(101): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(112): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(123): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(134): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(145): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(156): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(167): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Note: ./src/filter.vhd(183): VHDL Compiler exiting
-# End time: 20:36:49 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:37:07 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# ** Error (suppressible): ./src/filter.vhd(57): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(68): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(79): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(90): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(101): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(112): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(123): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(134): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(145): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(156): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(167): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Note: ./src/filter.vhd(183): VHDL Compiler exiting
-# End time: 20:37:07 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:41:19 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# ** Error (suppressible): ./src/filter.vhd(57): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(68): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(79): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(90): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(101): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(112): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(123): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(134): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(145): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(156): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Error (suppressible): ./src/filter.vhd(167): (vcom-1272) Length of formal "add_in" is 8; length of actual is 7.
-# ** Note: ./src/filter.vhd(183): VHDL Compiler exiting
-# End time: 20:41:19 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:42:02 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# End time: 20:42:02 on Nov 07,2022, Elapsed time: 0:00:00
+# vsim tb 
+# Start time: 14:47:22 on Nov 19,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.types
+# Loading work.tb(testbench)#1
+# Loading work.filter(arch)#1
+add wave -position end  sim:/tb/tb_din
+add wave -position end  sim:/tb/tb_dout
+run
+run
+add wave -position end  sim:/tb/samples
+add wave -position 2  sim:/tb/tb_rst_n
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+add wave -position 0  sim:/tb/Filter_inst/filter_block_0/reg_in
+add wave -position 1  sim:/tb/Filter_inst/filter_block_0/reg_out
+add wave -position 2  sim:/tb/Filter_inst/filter_block_0/add_out
+add wave -position 3  sim:/tb/Filter_inst/filter_block_1/add_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/tb/tb_clk
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 3  sim:/tb/Filter_inst/filter_block_1/reg_in
+add wave -position 4  sim:/tb/Filter_inst/filter_block_1/reg_out
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+add wave -position 1  sim:/tb/Filter_inst/filter_block_0/add_out
+add wave -position 2  sim:/tb/Filter_inst/filter_block_1/add_out
+add wave -position 3  sim:/tb/Filter_inst/filter_block_2/add_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 1  sim:/tb/Filter_inst/din
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/tb/Filter_inst/filter_block_8/register_output
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 2  sim:/tb/Filter_inst/dout
+add wave -position 2  sim:/tb/Filter_inst/filter_block_1/reg_in
+add wave -position 3  sim:/tb/Filter_inst/filter_block_1/register_output
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 2  sim:/tb/Filter_inst/filter_block_0/reg_in
+add wave -position 2  sim:/tb/Filter_inst/filter_block_0/reg_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 5  sim:/tb/Filter_inst/filter_block_1/reg_out
+add wave -position end  sim:/tb/Filter_inst/add_out
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/tb/Filter_inst/add_out(2)
+add wave -position end  sim:/tb/Filter_inst/filter_block_1/add_out
+add wave -position end  sim:/tb/Filter_inst/filter_block_1/add_in
+add wave -position end  sim:/tb/Filter_inst/filter_block_1/mult_out
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/tb/Filter_inst/filter_block_2/mult_out
+add wave -position 16  sim:/tb/Filter_inst/filter_block_2/add_in
+add wave -position 17  sim:/tb/Filter_inst/filter_block_2/coeff
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 16  sim:/tb/Filter_inst/filter_block_2/reg_out
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 15:59:08 on Nov 19,2022, Elapsed time: 1:11:46
 # Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 20:43:29 on Nov 07,2022
-# vcom -f compile.f 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling package types
-# -- Loading package types
-# -- Compiling entity reg
-# -- Compiling architecture register_arch of reg
-# -- Compiling entity filter_block
-# -- Compiling architecture arch of filter_block
-# -- Compiling entity filter
-# -- Compiling architecture arch of filter
-# ** Error: (vcom-11) Could not find work.datatype.
-# ** Error (suppressible): ./tb/tb.vhd(6): (vcom-1195) Cannot find expanded name "work.datatype".
-# ** Error: ./tb/tb.vhd(6): Unknown expanded name.
-# ** Note: ./tb/tb.vhd(7): VHDL Compiler exiting
-# End time: 20:43:29 on Nov 07,2022, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# ** Error: C:/questasim64_10.7c/win64/vcom failed.
-# Error in macro ./sim.do line 3
-# C:/questasim64_10.7c/win64/vcom failed.
-#     while executing
-# "vcom -f compile.f"

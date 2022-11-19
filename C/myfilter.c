@@ -35,8 +35,8 @@ int myfilter(int x)
   /// Moving average part
   y = 0;
   for (i=0; i<NT; i++)
-    y += ((sx[i]*bi[i]) >> (NB)); //shift right to limit number of bits 
- 
+  //  y += ((sx[i]*bi[i]) >> (NB)); //shift right to limit number of bits 
+   y += ((sx[i]*bi[i]) >> (NB)); //shift right to limit number of bits 
   return y;
 }
 

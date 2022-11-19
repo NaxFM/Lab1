@@ -1,110 +1,108 @@
-library ieee;
-use ieee.std_logic_1164.all;
+library IEEE;
+library std;
+use IEEE.std_logic_1164.all;
 use ieee.numeric_std.all;
-use std.textio.all;
 use work.types.all;
+use std.textio.all;
 
-entity tb is
+
+entity tb is 
 end entity;
 
-architecture testbench of tb is
-	component filter is
-		port(
-			din : in  signed(sample_bits-1 downto 0);
-			b : in coeff_array;
-			vin : in std_logic;
-			rst_n : in std_logic;
-			clk : in std_logic;
-			dout : out signed(sample_bits-1 downto 0);
-			vout : out std_logic
-		);
-	end component;
+architecture testbench of tb is 
 
-	signal din: signed (sample_bits-1 downto 0);
-	signal b: coeff_array;
-	signal vin: std_logic :='0';
-	signal rst_n: std_logic :='0';
-	signal clk: std_logic :='0';
-	signal dout: signed (sample_bits-1 downto 0);
-	signal vout: std_logic :='0';
+    component filter is
+        port(
+            din : in  signed(sample_bits-1 downto 0);
+            b : in coeff_array;
+            vin : in std_logic;
+            rst_n : in std_logic;
+            clk : in std_logic;
+            dout : out signed(sample_bits-1 downto 0);
+            vout : out std_logic
+        );
+    end component;
 
-	type sample_data is array (200 - downto 0) of signed (sample_bits-1 downto 0);
-	signal samples: sample_data;
+    file f_sample_in : text;
+    file f_sample_out : text;
 
-begin
-	dut:filter port map (
-		din=> din,
-		b=> b
-		vin=> vin,
-		rst_n=> rst_n,
-		clk=> clk,
-		dout=>dout,
-		vout=>vout
-		);
+    signal tb_din : signed(sample_bits-1 downto 0);
+    signal tb_b : coeff_array;
+    signal tb_vin : std_logic := '1';
+    signal tb_rst_n : std_logic := '1';
+    signal tb_clk : std_logic := '1';
+    signal tb_dout : signed(sample_bits-1 downto 0);
+    signal tb_vout : std_logic;
 
-clk <= not clk after 10 ns;
-rst_n<='0', '1' after 21 ns;
-B(0)<=to_signed(-1,B(0)'length);
-B(1)<=to_signed(-7,B(1)'length);
-B(2)<=to_signed(-13,B(2)'length);
-B(3)<=to_signed(32,B(3)'length);
-B(4)<=to_signed(140,B(4)'length);
-B(5)<=to_signed(203,B(5)'length);
-B(6)<=to_signed(140,B(6)'length);
-B(7)<=to_signed(32,B(7)'length);
-B(8)<=to_signed(-13,B(8)'length);
-B(9)<=to_signed(-7,B(9)'length);
-B(10)<=to_signed(-1,B(10)'length);
+    type sample_list is array (201-1 downto 0) of signed (sample_bits-1 downto 0);
+    signal samples : sample_list ;
 
-{-1,-7,-13,32,140,203,140,32,-13,-7-1}
+    begin
+        Filter_inst : filter
+            port map(
+                din => tb_din,
+                b => tb_b,
+                vin => tb_vin,
+                rst_n => tb_rst_n,
+                clk => tb_clk,
+                dout => tb_dout,
+                vout => tb_vout
+            );
 
-FILL_MEM : process (rst_n)
-file mem_fp:text;
-variable file_line:line;
-variable index:integer:=0;
-variable tmp_data_u: integer;
- begin
-if(rst_n='0') then
-file_open(mem_fp,"data.txt",READ_MODE);
-while (not endfile(mem_fp) and index < data_inl) loop
-        readline(mem_fp,file_line);
-        read(file_line,tmp_data_u);
-        list_in(index) <=to_signed(tmp_data_u,Nb);       
-        index := index + 1;
-      end loop;
-file_close(mem_fp);
-end if;
-end process;
-data_in : process(clk,rst_n)
-variable idx:integer:=0;
-begin
-	if(rst_n='1' and clk'event and clk='1' ) then 
-		if( idx<data_inl) then
-			DIN<=list_in(idx);
-			VIN<='1';
-			idx:=idx+1;
-		
+        
+        tb_clk <= not tb_clk after 20 ns;
+        tb_rst_n<='1', '0' after 2 ns, '1' after 3 ns;
 
-		end if;
-	end if;
-end process;
-out_f : process(Dout)
-file mem_fp:text;
-variable file_line:line;
-variable index:integer:=0;
-variable tmp_data_u: integer;
- begin
-if(rst_n='0') then
-	file_close(mem_fp);
-  file_open(mem_fp,"inout_data/out_basic.txt",WRITE_MODE);
+        tb_b(0)<=to_signed(0,tb_b(0)'length);
+        tb_b(1)<=to_signed(1,tb_b(1)'length);
+        tb_b(2)<=to_signed(6,tb_b(2)'length);
+        tb_b(3)<=to_signed(15,tb_b(3)'length);
+        tb_b(4)<=to_signed(25,tb_b(4)'length);
+        tb_b(5)<=to_signed(30,tb_b(5)'length);
+        tb_b(6)<=to_signed(25,tb_b(6)'length);
+        tb_b(7)<=to_signed(15,tb_b(7)'length);
+        tb_b(8)<=to_signed(6,tb_b(8)'length);
+        tb_b(9)<=to_signed(1,tb_b(9)'length);
+        tb_b(10)<=to_signed(0,tb_b(10)'length);
 
-elsif(index < data_inl) then
-	write(file_line,to_integer(Dout));
-        writeline(mem_fp,file_line);      
-        index := index + 1;
-else
-	  file_close(mem_fp);
-end if;
-end process;
 
-end architecture;
+        
+
+        --put all input samples in a list
+        process(tb_rst_n)
+            variable in_line : line;
+            variable sample_in : integer;
+            variable i : integer := 0;
+        begin
+            if(falling_edge(tb_rst_n)) then
+                file_open(f_sample_in, "../matlab/samples.txt", read_mode);
+                while not endfile(f_sample_in) and i < 201 loop
+                    readline(f_sample_in, in_line);
+                    read(in_line, sample_in);
+                    samples(i) <= to_signed(sample_in, sample_bits);
+                    i := i + 1;
+                end loop;
+            file_close(f_sample_in);
+            end if;
+        end process;
+        --------------
+
+        file_open(f_sample_out, "./sample_out.txt", write_mode);
+        process(tb_clk)
+            variable list_index : integer := 0;
+            variable out_line : line;
+
+        begin
+
+            if(falling_edge(tb_clk) and tb_rst_n = '1' and tb_vin = '1') then
+                
+                tb_din <= samples(list_index);
+                list_index := list_index + 1;
+                write(out_line, to_integer(tb_dout));
+                writeline(f_sample_out, out_line);  
+                --file_close(f_sample_out);
+            end if;
+            
+        end process;
+
+    end testbench;
